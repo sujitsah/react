@@ -1,15 +1,19 @@
 import React from 'react';
 
 import './App.css';
-import {Greet} from './component/Greet'
+import Greet from './component/Greet'
 
 import Welcome from './component/welcome'
+import Message from './component/message'
 
 function App() {
   return (
     <div className="App">
-   <Greet/>
-   <Welcome />
+   {/* <Greet name = 'sujit'/>
+   <Welcome name = 'bruce'/>
+   <Welcome name = 'sujit'/> */}
+
+   <Message />
     </div>
   );
 }
